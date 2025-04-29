@@ -17,3 +17,11 @@ In order to run app locally:
 - Register for a new API Key
 - Add a .env.local file in the project root and copy your API Token into a variable called `VITE_TMDB_API_TOKEN` which should look like `VITE_TMDB_API_TOKEN=${API_TOKEN}`
 - Run `npm run dev` to boot up app.
+
+#TO-DOs
+- Implement pagination
+- Implement authentication
+- Allow watchlist creation + reviews
+- Add UI testing using playwright
+- Clean up UI (better design + add responsiveness)
+- Implement better error handling
