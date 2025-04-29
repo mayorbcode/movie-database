@@ -6,6 +6,8 @@ This helps users find their next movie to watch by showing helpful stats
 - Users can scroll down to see all the other movies (100 max at the moment) according to their release date
 - Users can click on any movie to go into the movie details where they can see the ratings, description and actors
 
+[Link to Netlify App](https://mb-movie-database.netlify.app/)
+
 # Instructions
 In order to run app locally:
 
