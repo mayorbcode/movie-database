@@ -39,7 +39,7 @@ const Home = () => {
 
       if (latestMovies.length) return;
       
-      setLatestMovies(data.results.slice(0, 9))
+      setLatestMovies(data.results.slice(0, 10))
       
     } catch (error) {
       setError("Error Fetching Movies")
