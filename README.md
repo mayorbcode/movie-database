@@ -11,5 +11,9 @@ In order to run app locally:
 
 - Clone repo and open in IDE.
 - Run `npm i` in IDE terminal.
-- Add a .env.local file in the project root. I will provide the contents of file to you separately.
+- You will need a TMDB account in order to generate an API Token which can be used for the requests.
+- Create an account [here](https://www.themoviedb.org/signup)
+- Once you have created and logged into your account, click on your profile icon to launch dropdown menu and then click on `API subscription` or navigate directly to [this link](https://www.themoviedb.org/subscription?language=en-CA)
+- Register for a new API Key
+- Add a .env.local file in the project root and copy your API Token into a variable called `VITE_TMDB_API_TOKEN` which should look like `VITE_TMDB_API_TOKEN=${API_TOKEN}`
 - Run `npm run dev` to boot up app.
