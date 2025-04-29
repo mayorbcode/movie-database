@@ -1,0 +1,90 @@
+.movie {
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  /* background-color: black; */
+
+  .spinner-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    .spinner {
+      width: 16rem;
+      height: 16rem;
+    }
+  }
+
+  .details {
+    display: flex;
+    justify-content: center;
+
+    .movie-box {
+      display: flex;
+      margin: 2% 20%;
+      /* border: 1px solid black; */
+      gap: 20px;
+      background: rgba(0, 0, 0, .8);
+
+      .info {
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .title, .description, .rating, .duration {
+          margin: 0;
+          color: white;
+        }
+        
+        .genres {
+          display: flex;
+          align-items: baseline;
+          gap: 10px;
+
+          .genre-title {
+            font-size: 24px;
+            margin: 0;
+            color: white;
+          }
+
+          .genre {
+            color: white;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  .cast-title {
+    text-align: center;
+    margin: 20px auto;
+  }
+  .cast-wrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    .cast {
+      width: 342px;
+    }
+  }
+}
+
+.replacement-cast-image {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 510px;
+  border-radius: 6px 6px 0 0;
+  background-color: black;
+  padding: 10px;
+
+  h1 {
+    text-align: center;
+    color: beige;
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,43 @@
+.movies {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+  .movie {
+    width: 342px;
+
+    &:hover {
+      cursor: pointer;
+      border: 1px solid red;
+    }
+  }
+}
+
+.replacement-image {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 510px;
+  border-radius: 6px 6px 0 0;
+  background-color: black;
+  padding: 10px;
+
+  h1 {
+    text-align: center;
+    color: beige;
+    font-size: 50px;
+  }
+}
+
+.empty {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* min-height: 768px; */
+
+  .no-data-image {
+    /* width: 100%; */
+  }
+}
